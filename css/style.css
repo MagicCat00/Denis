@@ -1,0 +1,318 @@
+@font-face {
+	font-family: gilroy-medium;
+	src: url('../fonts/gilroy-regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: gilroy-bold;
+    src: url('../fonts/gilroy-bold.ttf') format('truetype');
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.html {
+   
+}
+.body {
+   
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+
+}
+.gamburger__menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+} 
+.header{
+    background-color: #ffffff;
+    padding: 0px 0px 100px 0px;
+}
+.header__block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+}
+/*����*/
+.navigation__header {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 33px 0;
+    border-bottom: 1px solid #828282;
+}
+.item__header {
+    text-decoration: none;
+    color: #828282;
+    font-family: gilroy-bold;
+    font-size: 18px;
+}
+/*����� ����� ����*/
+
+/*1 ����. 1 ������. �����*/
+
+.text__info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 40px;
+    margin-bottom: 39px;
+    vertical-align: text-bottom;
+}
+.name__info {
+    font-family: gilroy-bold;
+    font-size: 47px;
+ 
+}
+.data__info {
+    font-size: 18px;
+    font-family: gilroy-medium;
+}
+
+.language__info {
+    font-family: gilroy-bold;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.lang {
+    transform: rotate(-90deg);
+    margin-top: 20px;
+    color: #828282;
+}
+.lang:last-of-type{
+    border-right: 2px solid black;
+    padding-right: 5px;
+}
+.lang:first-of-type{
+    padding-left: 5px;
+}
+/*1 ����. 2 ������. ����*/
+.photo {
+    width: 100%;
+}
+.photo__denis {
+    width: 100%;
+}
+/*2 ����*/
+.about__me {
+    background-color: #f6f6f6;
+    padding-top: 120px;
+    padding-bottom: 107px;
+}
+.about__me__content{
+    text-align: center;
+}
+.about__me__heading {
+    font-family: gilroy-bold;
+    font-size: 34px;
+    padding-bottom: 18px;
+}
+.about__me__text {
+    font-family: gilroy-medium;
+    font-size: 18px;
+}
+/*3 ����. �����*/
+.skills{
+    padding-top: 91px;
+}
+.skills__text{
+    text-align: center;
+}
+.skills__word {
+    font-family: gilroy-bold;
+    font-size: 34px;
+}
+.skills__info {
+    font-family: gilroy-medium;
+    font-size: 18px;
+}
+/*3 ����. ������*/
+.skills__content {
+    padding-top: 87px;
+    display: flex;
+    justify-content: space-between;
+    color: #828282;
+    font-family: gilroy-bold;
+    font-size: 14px;
+    text-align: center;
+}
+.PS{
+    padding-bottom: 26px;
+}
+.AI {
+    padding-bottom: 26px;
+}
+.AE {
+    padding-bottom: 26px;
+}
+.Figma {
+    padding-bottom: 26px;
+}
+.PS__text{
+    padding-bottom: 40px;
+}
+.AI__text {
+    padding-bottom: 40px;
+}
+.AE__text {
+    padding-bottom: 40px;
+}
+.Figma__text {
+    padding-bottom: 40px;
+}
+/*3 ����. ������*/
+.star{
+    padding-top: 40px;
+    padding-bottom: 110px;
+}
+.star__Figma{
+    padding-top: 56px;
+}
+/*4 ����. ���������*/
+.Portfolio {
+    background-color: #f6f6f6;
+}
+.Portfolio__block {
+    padding-top: 112px;
+    font-family: gilroy-medium;
+    font-size: 18px;
+    text-align: center;
+}
+.Portfolio__block a {
+    color: #070707;
+}
+.portfolio__word {
+    font-family: gilroy-bold;
+    font-size: 34px;
+}
+.fashion__store__photo{
+    padding-top: 47px;
+    width: 100%;
+    padding-bottom: 44px;
+}
+.reebok__store{
+    padding-top: 99px;
+}
+.reebok__store__photo{
+    width: 100%;
+    padding-bottom: 45px;
+}
+.braun{
+    padding-top: 99px;
+    padding-bottom: 96px;
+}
+.braun__photo{
+    width: 100%;
+    padding-bottom: 46px;
+}
+/*������*/
+.footer{
+    background-color: #ffffff;
+}
+.footer__block {
+    text-align: center;
+    font-family: gilroy-medium;
+}
+.footer__text {
+    padding-top: 114px;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+.contacts {
+    font-family: gilroy-bold;
+    font-size: 34px;
+}
+.buttom {
+  
+}
+.button__footer{
+    padding-bottom: 80px;
+}
+.button__block {
+    background-color: #070707;
+    color: #ffffff;
+    padding: 10px 25px 10px;
+    border-radius: 45px;
+    font-family: gilroy-bold;
+    font-size: 18px;
+}
+.ikon__footer{
+    padding-bottom: 46px;
+}
+.footer__like{
+    color: #828282;
+    font-size: 14px;
+    padding-bottom: 123px;
+}
+/*������������� ������*/
+.fixed__button {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    right: 150px;
+    bottom: 120px;
+}
+.fixed__button__word {
+    background-color: #ffffff;
+    color: #070707;
+    border-radius: 45px;
+    border: 0px;
+}
+.photo__tel{
+    display: none;
+}
+/*��������� ��� ���������*/
+
+
+/*��������*/
+nav a {
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(to left, #828282, #828282 50%, #070707 50%);
+    color: #828282;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    overflow: hidden;
+    transition: background-position 275ms ease;
+}
+
+nav a:hover {
+    background-position: 0 100%;
+}
+
+.lang {
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(to left, #828282, #828282 50%, #070707 50%);
+    color: #828282;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    overflow: hidden;
+    transition: background-position 275ms ease;
+}
+.lang:hover {
+    background-position: 0 100%;
+}
+html {
+    scroll-behavior: smooth;
+}

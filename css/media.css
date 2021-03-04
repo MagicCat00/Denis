@@ -1,0 +1,107 @@
+/*адаптация*/
+@media (max-width: 1472px) {
+    .fixed__button {
+        opacity: .5;
+    }
+}
+
+@media (max-width: 1250px) {
+    .fixed__button {
+        opacity: .5;
+    }
+
+    .container {
+        width: 85%;
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navigation__header {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav a {
+        margin-bottom: 20px;
+    }
+
+    .skills__content {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 520px) {
+    .navigation__header {
+        display: none;
+    }
+
+    .language__info {
+        display: none;
+    }
+
+    .fixed__button {
+        display: none;
+    }
+
+    .photo__info {
+        display: none;
+    }
+
+    .photo__tel {
+        display: block;
+        width: 100%;
+        max-width: 520px;
+    }
+
+    .photo__full {
+        width: 100%;
+        max-width: 520px;
+    }
+
+    .text__info {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .gamburger__menu {
+        display: flex;
+        flex-direction: column;
+        order: 2;
+        position: relative;
+        background: url(../img/gamburger.svg) no-repeat center / cover;
+        width: 33px;
+        height: 20px;
+    }
+
+    .header__block {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-top: 50px;
+        justify-content: space-between;
+    }
+
+    .name__info {
+        margin-bottom: 23px;
+    }
+
+    .data__info {
+        margin-bottom: 37px;
+    }
+
+    .gamburger__menu:hover > .navigation__header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 365px;
+        background: white;
+        padding-left: 25px;
+        padding-top: 0px;
+    }
+}
